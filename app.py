@@ -9,6 +9,7 @@ from langchain.callbacks import get_openai_callback
 from PyPDF2 import PdfReader
 import pinecone 
    
+
 def main():
     # Streamlit app
     st.set_page_config(page_title="Ask your PDF")
